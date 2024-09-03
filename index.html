@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welzl's Algorithm Visualization</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Minimum Covering Circle Visualization</h1>
+        <form id="input-form">
+            <label for="points-number">Enter the number of points:</label>
+            <input type="number" id="points-number" min="2" max="10000" required>
+            <button type="submit">Generate Points</button>
+        </form>
+        <canvas id="canvas"></canvas>
+        <div id="slider-container">
+            <input type="range" id="step-slider" min="0" value="0">
+            <div id="steps-counter">
+                Step: <span id="steps-count">0</span> / <span id="total-steps">0</span>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
