@@ -50,7 +50,7 @@ document.getElementById('input-form').addEventListener('submit', function(e) {
         visualizeWelzl();
         updateSlider();
     } else {
-        alert('Please enter a valid number between 2 and 100.');
+        alert('Please enter a valid number between 2 and 10000.');
     }
 });
 
